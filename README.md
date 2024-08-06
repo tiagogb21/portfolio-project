@@ -13,8 +13,6 @@ Este projeto é o resultado do desafio prático da Rocketseat, onde pude aplicar
 
 Neste projeto, desenvolvi um site de portfólio voltado para desenvolvedores. O objetivo é mostrar meus projetos e facilitar o contato com possíveis interessados.
 
-Você pode acessar o [design do projeto no Figma aqui](https://www.figma.com/community/file/1387080701963671866/portfolio-dev).
-
 ---
 
 ## Tecnologias Utilizadas
