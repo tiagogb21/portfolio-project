@@ -1,6 +1,6 @@
 # Portfólio de Desenvolvedor
 
-![Portfolio](portfolio/assets/images/127.0.0.1_5500_portfolio_index.html.png)
+![Portfolio](./assets/images/127.0.0.1_5500_portfolio_index.html.png)
 
 ## Introdução
 
