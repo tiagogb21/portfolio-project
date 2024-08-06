@@ -1,0 +1,196 @@
+@import url("./reset.css");
+@import url("./vars.css");
+
+.title {
+    font-size: 5.6rem;
+    font-family: "Asap", sans-serif;
+    color: var(--gray-600);
+}
+
+.title-md {
+    font-size: 2.4rem;
+    font-family: "Asap", sans-serif;
+    color: var(--gray-600);
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-family: "Inconsolata", monospace;
+    color: var(--gray-500);
+}
+
+.text-md {
+    font-size: 1.6rem;
+    color: var(--gray-400);
+}
+
+.text-sm {
+    font-size: 1.4rem;
+    color: var(--gray-400);
+}
+
+.top-container, .bottom-container {
+    background-image: url("../assets/images/background-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-container, .medium-container, .services-container, .bottom-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-content {
+    width: 68rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 8rem;
+}
+
+.creator-name {
+    color: var(--principal-red);
+    font-size: 1.4rem;
+}
+
+.text-info {
+    text-align: justify;
+}
+
+.top-container ul {
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 9.4rem;
+}
+
+.top-container ul li {
+    background-color: var(--gray-300);
+    font-size: 1.6rem;
+    color: var(--gray-500);
+    border-radius: 99rem;
+    padding: 0.8rem 1.6rem;
+    display: flex;
+    align-items:center;
+    gap: 0.8rem;
+}
+
+.medium-container {
+    background-color: var(--gray-200);
+    padding: 0 10rem;
+    padding-bottom: 14.4rem;
+}
+
+.medium-container .subtitle, .services-container .subtitle {
+    color: var(--principal-red);
+    text-align: center;
+}
+
+.medium-container-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5.6rem;
+    gap:0.8rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
+}
+
+.projects-container li {
+    border-radius: 1.2rem;
+    background-color: var(--gray-300);
+    padding: 1.2rem;
+}
+
+.projects-container li img {
+    border-radius: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.projects-container li h3, .services-container li h3 {
+    color: var(--gray-600);
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.projects-container li p, .services-container li p {
+    color: var(--gray-500);
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.services-container {
+    min-height: 70vh;
+    background-color: var(--gray-100);
+    padding-top: 8.8rem;
+    padding-bottom: 12rem;
+}
+
+.services-container ul {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.services-container ul li {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.2rem;
+    border: 1px solid var(--gray-300);
+    padding: 2rem;
+    padding-right: 8rem;
+}
+
+.services-container ul li img {
+    width: 4.8rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.bottom-container div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 4.8rem;
+}
+
+.bottom-container .subtitle {
+    color: var(--principal-purple);
+}
+
+.bottom-container ul {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.bottom-container ul li a {
+    width: 100%;
+    display: flex;
+    border: 1px solid var(--gray-300);
+    padding: 2rem;
+    gap: 1.2rem;
+    align-items: center;
+    border-radius: 0.8rem;
+    background-color: var(--gray-300)
+}
+
+.bottom-container ul li a:hover {
+    opacity: 0.8;
+}
+
+.bottom-container ul li a h4 {
+    flex:1;
+}
